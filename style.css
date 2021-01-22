@@ -424,8 +424,12 @@ body {
   color: #f0eeff;
 }
 
-.bio-text,.link-2,.linkage,.list-item-14,.paragraph-3,.text-block-4 {
+.bio-text,.link-2,.list-item-14,.paragraph-3,.text-block-4 {
   color: #fff;
+}
+
+.linkage {
+ color: beige;
 }
 
 .paragraph-3 {
@@ -479,7 +483,7 @@ body {
   line-height: 23px;
 }
 
-.bio-text.andrew {
+.bio-text.amin {
   padding-top: 0;
   line-height: 23px;
 }
