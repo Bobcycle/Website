@@ -10,9 +10,10 @@ html {
 }
 
 body {
-  margin: 0;
   min-height: 100%;
   background-color: #fff;
+  padding-left: 15px
+  padding-right: 15px
 }
 
 section,summary {
@@ -236,7 +237,6 @@ body {
 
 .body {
   overflow: visible;
-  padding-left: 100px;
   background-color: #000;
   font-family: proxima-nova,sans-serif;
   line-height: 25px;
@@ -419,6 +419,14 @@ body {
   font-size: 20px;
 }
 
+@media only screen and (max-width: 960px) {
+.paragraph-3, .paragraph-2 { text-align: justify; }
+}
+
+@media only screen and (max-width: 960px) {
+.heading-5, { text-align: center; }
+}
+
 .paragraph-2 {
   font-family: 'Roboto Mono',sans-serif;
   color: #f0eeff;
@@ -476,7 +484,7 @@ body {
 }
 
 .bio-text {
-  width: 800px;
+  max-width: 800px;
   margin-bottom: 51px;
   padding-left: 150px;
   font-size: 16px;
