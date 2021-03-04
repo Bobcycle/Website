@@ -275,6 +275,25 @@ body {
   clear: left;
 }
 
+@media only screen and (max-width: 960px) {
+.list-item.laanaya,  { 
+  text-align: center;
+   }
+}
+
+@media only screen and (max-width: 960px) {
+.link-company, .h2 {
+  position: absolute;
+  left: -3px;
+  top: 0;
+  right: -3px;
+  bottom: 0;
+  display: block;
+  width: 280px;
+  height: 60px;
+  }
+}
+
 .list-item {
   height: 70px;
   padding-top: 0;
@@ -299,6 +318,7 @@ body {
 }
 
 .list-item.laanaya {
+  padding-left: 100px;
   background-image: url(assets/laanaya.jpg);
   background-position: 0 0;
   background-size: 58px;
@@ -375,9 +395,21 @@ body {
   font-size: 15px;
 }
 
+@media only screen and (max-width: 960px) {
+.unordered-list-2  { 
+  padding-left: 100px;
+   }
+}
+
 .unordered-list-2 {
   margin-bottom: 50px;
   margin-left: -23px;
+}
+
+@media only screen and (max-width: 960px) {
+.heading3, .heading, .paragraph, .heading-5 { 
+  text-align: center;
+   }
 }
 
 .heading-3 {
@@ -405,7 +437,6 @@ body {
 .unordered-list-3 {
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: -43px;
   padding-top: 8px;
   padding-bottom: 20px;
   border-top: 1px dotted #fff;
@@ -414,13 +445,16 @@ body {
 }
 
 .heading-5 {
-  width: 300px;
   line-height: normal;
   font-size: 20px;
 }
 
 @media only screen and (max-width: 960px) {
-.paragraph-3, .paragraph-2 { text-align: justify; }
+.paragraph-3, .paragraph-2 { 
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+   }
 }
 
 @media only screen and (max-width: 960px) {
@@ -428,8 +462,13 @@ body {
 }
 
 .paragraph-2 {
-  font-family: 'Roboto Mono',sans-serif;
-  color: #f0eeff;
+  max-width: 800px;
+  margin-bottom: 20px;
+  font-family: Trispace, sans-serif;;
+  font-size: 16px;
+  line-height: 27px;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .bio-text,.link-2,.list-item-14,.paragraph-3,.text-block-4 {
@@ -494,6 +533,12 @@ body {
 .bio-text.amin {
   padding-top: 0;
   line-height: 23px;
+}
+
+@media only screen and (max-width: 960px) {
+.portrait, .name, .bio-text.amin  { 
+  visibility: hidden; 
+  }
 }
 
 .portrait {
