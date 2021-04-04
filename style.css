@@ -148,10 +148,6 @@ h6 {
   line-height: 18px;
 }
 
-ul {
-  padding-left: 40px;
-}
-
 .w-list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -429,19 +425,27 @@ body {
 }
 
 .list-item-4 {
-  width: 265px;
-  margin-right: 41px;
-  color: #fff;
-}
+    width: 265px;
+    margin-right: 18px;
+    color: #fff;
+  }
 
 .unordered-list-3 {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 8px;
   padding-bottom: 20px;
-  border-top: 1px dotted #fff;
-  border-bottom: 1px dotted #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   list-style-type: none;
+}
+
+.ul-resources {
+    padding-inline-start: 0px;
+}
+
+ul {
+    padding-inline-start: 0px;
 }
 
 .heading-5 {
@@ -465,7 +469,6 @@ body {
   max-width: 800px;
   margin-bottom: 20px;
   font-family: Trispace, sans-serif;;
-  font-size: 16px;
   line-height: 27px;
   font-style: normal;
   font-weight: 300;
