@@ -30,7 +30,8 @@ p.copyright {
     position: absolute;
     width: 100%;
     color: #fff;
-    line-height: 60px;
+    line-height: 20px;
+    padding-bottom: 20px;
     font-size: 1.0em;
     text-align: center;
     bottom: 0;
