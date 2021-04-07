@@ -319,19 +319,19 @@ body {
 }
 
 .list-item.laanaya {
-  background-image: url(assets/laanaya.jpg);
+  background-image: url(../assets/laanaya.jpg);
   background-position: 0 0;
   background-size: 58px;
 }
 
 .list-item.minevictus {
-  background-image: url(assets/minevictus.jpg);
+  background-image: url(../assets/minevictus.jpg);
   background-position: 0 0;
   background-size: 51px;
 }
 
 .list-item.turtlebob {
-  background-image: url(assets/turtlebob.jpg);
+  background-image: url(../assets/turtlebob.jpg);
   background-position: 0 4px;
   background-size: 55px;
 }
