@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Knockout';
+  src: url('fonts/knockout.otf'); 
+  src: 
+    local('Knockout'),
+    local('Knock out'),
+    url('fonts/knockout.otf') 
+    format('opentype');
+}
+
 b,h1,h2,h3,h4,h5,h6,strong {
   font-weight: 700;
 }
